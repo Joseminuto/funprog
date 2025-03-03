@@ -1,0 +1,10 @@
+# Solicita al usuario su información
+nombre = input("Ingrese su nombre: ")
+edad = int(input("Ingrese su edad: "))
+fecha_nacimiento = input("Ingrese su fecha de nacimiento (DD/MM/AAAA): ")
+
+# Muestra la información ingresada
+print("\n--- Datos Ingresados ---")
+print(f"Nombre: {nombre}")
+print(f"Edad: {edad} años")
+print(f"Fecha de nacimiento: {fecha_nacimiento}")
